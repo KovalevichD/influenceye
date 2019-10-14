@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="669" height="668" viewBox="0 0 669 668">
+    <defs>
+        <path id="z2fya" d="M142.59 213.59a6 6 0 0 1 6-6h449.54a6 6 0 0 1 6 6v449.54a6 6 0 0 1-6 6H148.59a6 6 0 0 1-6-6z"/>
+        <mask id="z2fyc" width="2" height="2" x="-1" y="-1">
+            <path fill="#fff" d="M49 114h649v649H49z"/>
+            <use xlink:href="#z2fya"/>
+        </mask>
+        <filter id="z2fyb" width="705" height="705" x="23" y="88" filterUnits="userSpaceOnUse">
+            <feOffset dx="4" dy="4" in="SourceGraphic" result="FeOffset1023Out"/>
+            <feGaussianBlur in="FeOffset1023Out" result="FeGaussianBlur1024Out" stdDeviation="6.4 6.4"/>
+        </filter>
+    </defs>
+    <g>
+        <g transform="rotate(45 486.782 336.423)">
+            <g filter="url(#z2fyb)">
+                <use fill="none" stroke-opacity=".07" stroke-width="0" mask="url(&quot;#z2fyc&quot;)" xlink:href="#z2fya"/>
+                <use fill-opacity=".07" xlink:href="#z2fya"/>
+            </g>
+            <use fill="#361a93" xlink:href="#z2fya"/>
+        </g>
+    </g>
+</svg>

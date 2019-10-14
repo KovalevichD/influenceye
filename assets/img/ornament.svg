@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="63px" height="16px" viewBox="0 0 63 16" version="1.1">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-copy" transform="translate(-678.000000, -651.000000)" stroke="#FFE700" stroke-width="3">
+            <g id="testimonial" transform="translate(230.000000, 581.000000)">
+                <polyline id="Path-3" transform="translate(480.000000, 78.000000) scale(1, -1) translate(-480.000000, -78.000000) " points="450 73 460 83 470 73 480 83 490 73 500 83 510 73"/>
+            </g>
+        </g>
+    </g>
+</svg>

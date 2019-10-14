@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="244" height="416" viewBox="0 0 244 416">
+    <defs>
+        <path id="ky4za" d="M1280 274.013v-24.284h21.906V225.16H1327"/>
+        <path id="ky4zb" d="M1086.548 620.505v-12.352l10.673 6.176 10.673 6.176-10.673 6.176-10.673 6.175zM1083 602v37l16-9.25 16-9.25-16-9.25z"/>
+    </defs>
+    <g>
+        <g transform="translate(-1083 -223)">
+            <use fill="#fff" fill-opacity="0" stroke="#ffe700" stroke-miterlimit="50" stroke-width="4" xlink:href="#ky4za"/>
+        </g>
+        <g transform="translate(-1083 -223)">
+            <use fill="#ffe700" xlink:href="#ky4zb"/>
+        </g>
+    </g>
+</svg>

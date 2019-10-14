@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="45" viewBox="0 0 41 45">
+    <defs>
+        <path id="je2la" d="M285.42 960H264v-38.417c0-.874.707-1.583 1.579-1.583h19.841c.873 0 1.58.709 1.58 1.583v36.833c0 .875-.707 1.584-1.58 1.584z"/>
+        <path id="je2lb" d="M279.53 924h-7.7a.912.912 0 0 1-.787-.465L269 920h13l-1.647 3.465a.917.917 0 0 1-.823.535z"/>
+        <path id="je2lc" d="M264 942h23"/>
+        <path id="je2ld" d="M267 946h12"/>
+        <path id="je2le" d="M267 949h10"/>
+        <path id="je2lf" d="M282 942v-.437c0-3.625-2.686-6.563-6-6.563s-6 2.938-6 6.563V942z"/>
+        <path id="je2lg" d="M279 929.5c0 1.933-1.343 3.5-3 3.5s-3-1.567-3-3.5 1.343-3.5 3-3.5 3 1.567 3 3.5"/>
+        <path id="je2lh" d="M265 963h20"/>
+        <path id="je2li" d="M291.16 934.751c-4.255-4.255-11.154-4.255-15.409 0-4.255 4.255-4.255 11.154 0 15.409 3.914 3.913 10.059 4.217 14.331.932l11.053 11.052a1.42 1.42 0 0 0 2.009-2.009l-11.053-11.053c3.286-4.272 2.982-10.417-.931-14.33m-1.498 13.91a8.777 8.777 0 1 1-12.411-12.413 8.777 8.777 0 0 1 12.41 12.413"/>
+    </defs>
+    <g>
+        <g transform="translate(-263 -919)">
+            <g>
+                <use fill="#fff" fill-opacity="0" stroke="#8066ff" stroke-miterlimit="50" stroke-width="1.2" xlink:href="#je2la"/>
+            </g>
+            <g>
+                <use fill="#fff" fill-opacity="0" stroke="#8066ff" stroke-miterlimit="50" stroke-width="1.2" xlink:href="#je2lb"/>
+            </g>
+            <g>
+                <use fill="#fff" fill-opacity="0" stroke="#8066ff" stroke-miterlimit="50" stroke-width="1.2" xlink:href="#je2lc"/>
+            </g>
+            <g>
+                <use fill="#fff" fill-opacity="0" stroke="#8066ff" stroke-miterlimit="50" stroke-width="1.2" xlink:href="#je2ld"/>
+            </g>
+            <g>
+                <use fill="#fff" fill-opacity="0" stroke="#8066ff" stroke-miterlimit="50" stroke-width="1.2" xlink:href="#je2le"/>
+            </g>
+            <g opacity=".49">
+                <use fill="#8066ff" xlink:href="#je2lf"/>
+            </g>
+            <g opacity=".49">
+                <use fill="#8066ff" xlink:href="#je2lg"/>
+            </g>
+            <g>
+                <use fill="#fff" fill-opacity="0" stroke="#d3dbe2" stroke-miterlimit="50" stroke-width="1.2" xlink:href="#je2lh"/>
+            </g>
+            <g>
+                <use fill="#39dfdd" xlink:href="#je2li"/>
+            </g>
+        </g>
+    </g>
+</svg>
