@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html {
+
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     min-width: 320px;
@@ -10,6 +15,7 @@ body {
 .page {
     max-width: 1440px;
     margin: 0 auto;
+    position: relative;
 }
 
 .page ul {
@@ -135,6 +141,44 @@ body {
     background-color: #2a3d51;
     color: #fff;
 }
+
+/* nav sidebar*/
+.nav-main-page {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-main-page {
+    max-width: 180px;
+    position: fixed;
+    right: 0;
+    top: 60px;
+}
+
+.nav-main-page__item {
+    display: block;
+    opacity: 0.5;
+    color: #2a3d51;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 20px 0 20px 25px;
+    width: 100%;
+}
+
+.active-item-nav-main-page {
+    background-color: #c5fffe;
+    opacity: 1;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.nav-main-page__item:hover {
+    opacity: 1;
+}
+
+.floating-right {}
 
 /* main content*/
 
@@ -639,6 +683,103 @@ body {
 
 .footer-social-icon {
     margin-right: 15px;
+}
+
+/* REGISTRATION */
+
+.main-content {
+    margin-top: 70px;
+    min-height: calc(100vh - 70px);
+}
+
+.section-form {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.section-form__title {
+    font-size: 22px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2ccdcb;
+    width: 47%;
+    color: #2ccdcb;
+    align-self: center;
+    margin: 40px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 77%;
+    margin: 0 auto;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.form-block input {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding: 10px 0;
+}
+
+.form-block label {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(187, 187, 187);
+}
+
+.form-block input::placeholder {
+    color: rgb(187, 187, 187);
+    font-style: italic;
+    font-size: 14px;
+}
+
+.eye-for-password {
+    position: absolute;
+    top: 26px;
+    right: 2px;
+    width: 23px;
+    height: 21px;
+    background: url(../assets/img/eye-for-password.png) no-repeat;
+    background-position: 2px 1px;
+    background-size: contain;
+    opacity: .3;
+    cursor: pointer;
+}
+
+.eye-for-password-active {
+    opacity: 1;
+}
+
+.form .form-block .error {
+    border-color: #d63c3c;
+    color: #d63c3c;
+}
+
+input.error-placeholder::placeholder {
+    color: #d63c3c;
+}
+
+.error-text {
+    color: #d63c3c;
+    font-size: 14px;
+    position: absolute;
+    bottom: -20px;
+    left: 5px;
+    display: none;
 }
 
 @media (max-width: 991.98px) {

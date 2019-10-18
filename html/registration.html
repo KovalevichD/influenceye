@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>InfluencEye | Professional Tool for Influencer Analytics and Discovery</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header-title">
+            <img src="../assets/img/logo.svg" class="header-title__logo">
+        </div>
+        <div class="header-nav">
+            <ul class="main-menu_menu">
+                <a href="#" class="menu-item">About</a>
+                <a href="#" class="menu-item">Pricing</a>
+                <a href="#" class="menu-item">API</a>
+                <a href="#" class="menu-item">Blog</a>
+            </ul>
+            <a href="#" class="btn btn-nav__green">Start Free Trial</a>
+            <a href="#" class="btn btn-nav__gray">Log in</a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="section-form">
+            <h1 class="section-form__title">CREATE ACCOUNT</h1>
+            <form method="POST" class="form" id="form">
+                <div class="form-block">
+                    <label for="fullname" class="from-label__fullname">Full name</label>
+                    <input type="text" name="fullname" class="form-input__fullname" id="fullname"
+                        placeholder="Please introduce yourself">
+                </div>
+
+                <div class="form-block">
+                    <label for="companyName" class="from-label__company-name">Company name</label>
+                    <input type="text" name="companyName" class="form-input__company-name" id="companyName"
+                        placeholder="Please enter your company name">
+                </div>
+
+                <div class="form-block">
+                    <label for="fullname" class="from-label__email">Emial adress</label>
+                    <input type="email" name="emial" class="form-input__email"
+                        placeholder="Use a valid email, we'll ask to verify it" oninput="validateEmail()" id="emailField">
+                        <span class="error-text" id="emailError">Incorrect Email format</span>
+                </div>
+
+                <div class="form-block">
+                    <label for="fullname" class="from-label__password">Password (at least 8 characters)</label>
+                    <input type="password" name="password" class="form-input__password"
+                        placeholder="Password must have 8 characters or more" id="passwordField" oninput="validatePassword()">
+                    <div class="eye-for-password" onclick="showPassword()" id="eyeForPassword"></div>
+                    <span class="error-text" id="passwordError">Password is shorter than 8 characters</span>
+                </div>
+
+
+                <label for="termsOfUse"><input type="checkbox" name="termsOfUse" id="termsOfUse" class="terms-of-use">By
+                    signing up, you agree to our <a href="#">Terms of use</a></label>
+                <label for="mailing"><input type="checkbox" name="mailing" id="mailing">Please update me on product
+                    news, offers and events</label>
+
+                <input type="button" disabled id="buttonSubmit" value="Register" onclick="submit()">
+            </form>
+            
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrap">
+            <div class="footer-nav__column margin-bottom10">
+                <div class="logo-white"></div>
+                <span class="text-muted">
+                    16, Kyriakou Matsi, Eagle House, 10th floor, Agioi Omologites, 1082, Nicosia, Cyprus
+                </span>
+                <a href="#" class="text-muted">info@influenceye.com</a>
+                <span class="text-muted">© 2019 InData Labs Group Ltd.</span>
+                <div class="nav-footer__social">
+                    <a href="#"><img src="../assets/img/medium-icon.svg" alt="icon" class="footer-social-icon"></a>
+                    <a href="#"><img src="../assets/img/facebook-icon.svg" alt="icon" class="footer-social-icon"></a>
+                    <a href="#"><img src="../assets/img/instagram-icon-footer.svg" alt="icon"
+                            class="footer-social-icon"></a>
+                    <a href="#"><img src="../assets/img/twitter-icon-footer.svg" alt="icon"
+                            class="footer-social-icon"></a>
+                </div>
+            </div>
+
+            <div class="footer-nav__column">
+                <div class="column-title text-muted">InfluencEye</div>
+                <ul class="column-list">
+                    <a href="#">
+                        <li class="column-list__item">About</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">Pricing</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">API</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">Startups</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">Blog</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="footer-nav__column">
+                <div class="column-title text-muted">Legal</div>
+                <ul class="column-list">
+                    <a href="#">
+                        <li class="column-list__item">Legal</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">Terms of Use</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">Terms & Conditions</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">Privacy Policy</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">Acceptable Use Policy</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">Cookie Policy</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="footer-nav__column">
+                <div class="column-title text-muted">Get Started</div>
+                <ul class="column-list">
+                    <a href="#">
+                        <li class="column-list__item">Contact Us</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">Start Free Trial</li>
+                    </a>
+                    <a href="#">
+                        <li class="column-list__item">Log in</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/registration.js"></script>
+</body>
+
+</html>

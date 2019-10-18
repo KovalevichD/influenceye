@@ -82,3 +82,15 @@ function removeClassOpenInReview(className) {
         }
     }
 }
+
+// nav animate scroll
+
+// window.onscroll = function() {scrollFunction()};
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+//     document.getElementById("scroll-navbar").classList.add('floating-right');
+//   } else {
+//     document.getElementById("scroll-navbar").classList.remove('floating-right');
+//   }
+// }
